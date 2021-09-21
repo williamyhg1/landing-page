@@ -57,6 +57,7 @@ div {
 background-color: #1F2937;
 display: flex;
 flex-wrap: nowrap;
+flex-grow: 2;
 
 }
 
@@ -107,8 +108,26 @@ h1 {
 
 .box2 {
     background-color: white;
+    display: flex;
+    flex-grow: 2;
 }
 
 .box3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 40px 120px 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    align-items: flex-end; 
+    margin-top: -20px;  
 }
