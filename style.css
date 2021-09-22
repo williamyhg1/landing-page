@@ -142,7 +142,7 @@ h1 {
     height: 200px;
     justify-content: center;
     align-items: center;
-    border: 3px solid lightblue;
+    border: 3px solid #3882f6;
     border-radius: 12px;
 
 }
@@ -191,4 +191,20 @@ h1 {
     width: 800px;
     height: 100px;
     border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-left{
+display: flex;
+flex-direction: column;
+flex-basis: 70%;
+color: white;
+justify-content: center;
+align-items: center;
+}
+
+.center-right {
+display: flex;
+flex-basis: 30%;
 }
